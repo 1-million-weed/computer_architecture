@@ -1,0 +1,5 @@
+.ORIG x3000
+AND R1, R1, #0 ; Clear R1
+AND R1, R0, #1  
+HALT
+.END
